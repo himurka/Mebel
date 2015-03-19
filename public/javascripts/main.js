@@ -1,8 +1,8 @@
 $(function(){
 $('.menutop a:eq(0)').bind('mouseover',function(){
-		$('#header').css('background','orange')
+		$('#header').css('background','red')
 	})
 $('.menutop a:eq(0)').bind('mouseout',function(){
-		$('#header').css('background','green')
+		$('#header').css('background','')
 	})
 });
