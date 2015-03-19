@@ -26,7 +26,7 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views')); //подключается папака с шаблонами (в папку views) __dirname означает текущую деррикторию
 app.set('view engine', 'jade'); // //какой шаблонизатор используем (шаблон jade)
-                                                //через app.set подключаем настройки
+//через app.set подключаем настройки
 //поключаем поддержку сессии
 app.use(session({
 	secret:config.get('session:secret')

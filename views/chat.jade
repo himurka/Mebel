@@ -8,7 +8,7 @@ block content
      script(src='http://code.jquery.com/jquery-latest.min.js')
      script(src='/socket.io/socket.io.js')
      script.
-        var socket = io.connect('http://192.168.0.254:3003');
+        var socket = io.connect('192.168.16.44:3003');
         $('form').submit(function(){
         socket.emit('chat message', $('#m').val());
         $('#m').val('');
