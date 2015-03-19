@@ -1,0 +1,9 @@
+extends layout
+block content
+ h2 Вход
+ form.login(method='POST',action='/reg')
+  input(type='text',name='username',placeholder='Логин')
+  br
+  input(type='text',name='password',placeholder='Пароль')
+  br
+  input(type='submit',name='submit',value='Войти')

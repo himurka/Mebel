@@ -1,0 +1,120 @@
+#header {
+height: 138px;
+width: 100%;
+background-image: url(../images/bd11.jpg);
+border: 5px solid white;
+}
+
+#h1head {
+text-align: center;
+color: blue;
+margin-top: 45px;
+}
+
+.logo {
+height: 128px;
+width: 200px%;
+float:left;
+}
+
+html{
+}
+
+body {
+height: 800px;
+width: 100%;
+background-image: url(../images/bd22.jpg);
+margin-left: 0px;
+}
+
+.menutop {
+height: 35px;
+width: 100%;
+display: -moz -box;
+display: -webkit -flex;
+display: flex;
+text-align: center;
+margin-left: 0, auto;
+flex-direction: row;
+border: 3px solid white;
+margin-top: 0px;
+}
+
+.menutop a {
+flex: -moz -box: 1;
+flex: 1;
+display: block;
+font-size: 20px;
+padding: 15px, 0;
+text-align: center;
+color: yellow;
+text-decoration: none;
+}
+
+.menutop a:hover {
+color: yellow;
+}
+
+.col-md-2 {
+height: 500px;
+margin-top: 0px;
+border: 3px solid white;
+}
+
+.col-md-7{
+height: 500px;
+margin-top: 0px;
+border: 3px solid white;
+}
+
+.col-md-3 {
+height: 500px;
+margin-top: 0px;
+border: 3px solid white;
+}
+
+.btn {
+margin-top: 10px;
+background-image: url(../images/bd11.jpg);
+text-align: left;
+color: blue;
+width: 100%;
+}
+
+#h2maincont {
+text-align: center;
+color: yellow;
+}
+
+#h3meteo {
+text-align: center;
+color: yellow;
+}
+
+.menuboth {
+margin-top: 500px;
+height: 100px;
+width: 100%;
+border: 3px solid white;
+}
+
+#h4menuboth {
+text-align: center;
+color: yellow;
+}
+
+#h6made {
+text-align: center;
+color: yellow}
+
+#h2nametext{
+color: yellow
+}
+
+#h4bodytext{
+color: yellow;
+}
+
+#h2gallery{
+color: yellow;
+}

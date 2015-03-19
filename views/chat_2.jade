@@ -1,0 +1,19 @@
+extends layout
+block content
+  h2 Чат
+  ul#messages
+      form(action='/chat')
+        input#m(autocomplete='off')
+        button Отправить
+     script(src='http://code.jquery.com/jquery-latest.min.js')
+     script(src='/socket.io/socket.io.js')
+      script.
+        var socket = io.connect();
+        $('form').submit(function(){
+        socket.emit('chat message', $('#m').val());
+        $('#m').val('');
+        return false;
+        });
+        socket.on('chat message', function(msg){
+        $('#messages').append($('<li>').text(msg));
+        });

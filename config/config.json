@@ -1,0 +1,15 @@
+{
+"scripts" : [],
+"styles" : ["bootstrap/css/bootstrap.min.css","css/mycss.css"],
+"port" : "3000",
+"mongoose":{
+	"uri":"mongodb://localhost/himdb",
+	"options":{
+		"server":{
+		"soketOptions":{
+			"keepAlive":1}
+			}
+		}
+	},
+"session":{"secret": "killerisHim"}
+}
