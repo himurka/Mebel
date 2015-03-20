@@ -1,5 +1,5 @@
 {
-"scripts" : [],
+"scripts" : ["javascripts/jquery-2.1.3.min.js"],
 "styles" : ["bootstrap/css/bootstrap.min.css","css/mycss.css"],
 "port" : "3000",
 "mongoose":{

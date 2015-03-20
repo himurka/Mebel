@@ -8,7 +8,7 @@ var index = 'index';
 
 var config = require ('../config');
 scripts = config.get ('scripts');
-scripts[0] ='';
+//scripts[0] ='';
 //styles[2] = 'style2.css';//определяем стиль
 
 var Maintexts = require('../models/maintexts').maintexts;
