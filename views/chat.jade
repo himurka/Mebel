@@ -5,10 +5,10 @@ block content
       form#chatform(method='POST', action = '/chat')
         input#m(autocomplete='off')
         button Отправить
-     script(src='http://code.jquery.com/jquery-latest.min.js')
+     script(src='javascripts/main.js')
      script(src='/socket.io/socket.io.js')
      script.
-        var socket = io.connect('192.168.16.44:3003');
+        var socket = io.connect('localhost:3003');
         $('form').submit(function(){
         socket.emit('chat message', $('#m').val());
         $('#m').val('');
