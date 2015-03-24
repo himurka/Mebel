@@ -22,6 +22,7 @@ var checkAuth = require('./utils/checkAuth'); //подключыаем утил�
 var auth = require('./routes/auth');
 var chat = require('./routes/chat');
 var app = express();
+var video = require('./routes/video');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views')); //подключается папака с шаблонами (в папку views) __dirname означает текущую деррикторию
@@ -56,6 +57,7 @@ app.get('/index/add',routes.add); //можно без /index
 app.get('/userpage',checkAuth,auth.userpage);
 app.get('/logout',checkAuth,reg.logout);
 app.get('/chat',checkAuth,chat.index); //прослушиватель chat
+app.get('/video',video.video);
 app.get('/:id',routes.index);
 app.post('/reg',reg.send);
 
