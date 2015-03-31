@@ -1,0 +1,8 @@
+extends layout
+block content
+  h2 Укажите маршрут
+  section#location
+      input#start(placeholder='Начальная точка')
+      input#end(placeholder='Конечная точка')
+      input#end(type='button', value='Поехали')
+      div#map-canvas
