@@ -29,7 +29,8 @@ function animation(e){
 	canvas.beginPath();
 	canvas.moveTo(x+10,y);
 	canvas.arc(x,y,10,0,Math.PI * 2, false);
-	canvse.moveTo(x+10,y);
+	canvas.moveTo(x+10,y);
 	canvas.arc(x,y,10,0,Math.PI * 2, false);
 	canvas.fill();
 }
+addEventListener ('load', initiate);
