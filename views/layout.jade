@@ -13,11 +13,14 @@ html
       script(src='javascripts/main.js')
     for style in styles
       link(href='#{style}' type='text/css' rel='stylesheet')
+      link(rel='stylesheet/less', type='text/css', href='css/style.less')
+      script(src='javascripts/less.min.js')
   body
     #header
       a.logolink(href='#')
       img.logo(src='images/logo.jpg')
       h1#h1head  Сеть магазинов для уюта и комфорта
+      h2#less Less
       canvas#topcanvas(width='200', height='100')
     .menutop
       a(href='main')  Главная
